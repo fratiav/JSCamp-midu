@@ -1,0 +1,61 @@
+Estos son los basics de HTML:
+
+  <!DOCTYPE html> --> Marcado para que el navegador sepa que es una pagina web html
+
+
+
+  Esqueleto basico:
+    <html>
+      <head>
+        <title>Titulo de la pagina que luego sera el titulo en google</title>
+        <meta charset = "UTF-8"/>
+        <meta name="description" content="Aqui se pone el texto descriptivo que luego aparecera en google cuando se muestre nuestra pagina" />
+      </head>
+      <body>
+        <header></header>
+        <main>
+          <section>
+          </section>
+          <section>
+          </section>
+        </main>
+        <footer></footer>
+      </body>
+    </html>
+
+
+
+  Imagenes <img src="ubicacion de la imagen" alt="descripcion de la imagen para SEO"/>  --> SIEMPRE poner alt y si es imagen decorativa poner alt="", pero ponerlo igualmente
+
+
+
+  Inputs y Labels ---> Un input debe tener siempre un label asignado. Se puede poner anidado o no (notese como funciona el elemento id en ese caso):
+    No anidado
+    ----------------------------------------------------------
+    <label for="nombre-input"> Nombre </label>
+    <input id = "nombre-input" type = "text" name = "nombre" placeholder = "Introduce aqui tu nombre completo"/>
+    ----------------------------------------------------------
+    Anidado (no hace falta id en input al estar autocontenido)
+    ----------------------------------------------------------
+    <label>
+      Nombre
+      <input type = "text" name = "nombre" placeholder = "Introduce aqui tu nombre completo"/>
+    </label>
+
+
+
+  Formularios --> Siempre deben tener un boton para hacer el submit del formulario. Si ningun boton lo especifica, el ultimo boton del formulario será automaticamente el tipo submit.
+    <form>
+      <label>
+        Nombre
+        <input type = "text" name = "nombre" placeholder = "Introduce aqui tu nombre completo"/>
+      </label>
+      <button type = "submit> Enviar </button>
+    </form>
+
+
+
+  Recordar usar las ETIQUETAS SEMÁNTICAS <section> <article> <header> <footer> <aside> <main> <nav>
+
+
+
