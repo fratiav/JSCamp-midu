@@ -68,3 +68,27 @@ Estos son los basics de HTML:
 
 
 
+  En las navegaciones hay enlaces internos (dentro de tu pagina) y externos (fuera de tu pagina). Es importante saber como definirlos:
+    <nav>
+      <a href = "#Experiencia">Experiencia</a>
+      <a href = "https://google.com" target = "_blanck" rel ="noreferrer">Google</a>
+      <a href = "tel:+346365558845"> Llamar a Fran </a>
+    </nav>
+    <h1 id="experiencia"> Mi experiencia personal </h1>
+
+  Como se puede ver los enlaces internos buscan el "id" que coincida con el hastag que se le indica en href. En cuanto a enlaces externos, es importante indicarle que se abra en una nueva pagina con target = "_blanck" y evitar que se pasen datos de nuestro sitio web mediante rel ="noreferrer". Tambien hay una serie de patrones que tienen funcionalidad especial, como llamar por telefono, enviar un mail, enviar un whatsap, etc.
+
+
+
+  Existe un atributo "role" para elementos que no tienen semantica, darsela. Por ejemplo en un div, podriamos tener:
+    <div role = "alert">Esto es un mensaje de alerta</div>
+  Hay muchos roles y se pueden ver en la documentacion, aunque si ya existe un elemento semantico es mejor utilizar este ultimo.
+
+
+
+  Se puede hacer que un recurso nuestro (no externo) sea descargable para el usuario. Por ejemplo, con una imagen:
+    <a download href = "/images/foto.jpg">
+      <img src = "/images/foto.jpg" alt = "foto de fran">
+    </a>
+  El atributo download permite descargar el archivo cuando se le da click. Si la imagen fuera externa, lleva directamente a la imagen pero no la descarga.
+
