@@ -1,6 +1,6 @@
 Estos son los basics de HTML:
 
-  <!DOCTYPE html> --> Marcado para que el navegador sepa que es una pagina web html
+  <!DOCTYPE html> --> Marcado para que el navegador sepa que es una pagina web html. Se denomina nodo.
 
 
 
@@ -25,7 +25,7 @@ Estos son los basics de HTML:
 
 
 
-  Imagenes <img src="ubicacion de la imagen" alt="descripcion de la imagen para SEO"/>  --> SIEMPRE poner alt y si es imagen decorativa poner alt="", pero ponerlo igualmente
+  Imagenes <img src="ubicacion de la imagen" alt="descripcion de la imagen para SEO" title = "titulo descriptivo corto"/>  --> SIEMPRE poner ALT y si es imagen decorativa poner alt="", pero ponerlo igualmente. El TITLE es el mensaje que sale cuando dejas el raton encima de la imagen.
 
 
 
@@ -56,6 +56,15 @@ Estos son los basics de HTML:
 
 
   Recordar usar las ETIQUETAS SEMÁNTICAS <section> <article> <header> <footer> <aside> <main> <nav>
+
+
+  Las comillas en los atributos son opcionales SIEMPRE QUE NO TENGA ESPACIOS (por ejemplo un texto).
+    <input type = text /> no es necesario "text"
+    <img alt = "alt de mi imagen"/> aqui en alt si es necesario
+
+
+
+  Comentarios en HTML <!-- Main Content Comment -->
 
 
 
